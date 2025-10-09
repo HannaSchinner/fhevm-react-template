@@ -699,7 +699,7 @@ This Universal FHEVM SDK was built specifically for the Zama Bounty Challenge, d
 - ✅ <10 lines to get started
 
 **Competition Entry Information**:
-- **Repository**: https://github.com/your-org/fhevm-react-template
+- **Repository**: https://github.com/HannaSchinner/fhevm-react-template
 - **Forked From**: https://github.com/zama-ai/fhevm-react-template
 - **Video Demo**: [demo.mp4]
 - **Live Demos**: See Examples section above

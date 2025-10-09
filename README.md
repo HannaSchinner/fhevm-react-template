@@ -402,7 +402,6 @@ npm install
 npm run dev
 ```
 
-**Live Demo**: [https://fhevm-nextjs-demo.vercel.app](https://fhevm-nextjs-demo.vercel.app)
 
 ### 2. Privacy Voting Platform
 
@@ -561,7 +560,7 @@ Included `demo.mp4` showing:
 ### ✅ Deployment Links
 
 All examples are deployed and accessible:
-- Next.js: https://fhevm-nextjs-demo.vercel.app
+
 - Voting Platform: https://cultural-voting.vercel.app
 
 ---
@@ -702,7 +701,7 @@ This Universal FHEVM SDK was built specifically for the Zama Bounty Challenge, d
 **Competition Entry Information**:
 - **Repository**: https://github.com/your-org/fhevm-react-template
 - **Forked From**: https://github.com/zama-ai/fhevm-react-template
-- **Video Demo**: [demo.mp4](./demo.mp4)
+- **Video Demo**: [demo.mp4]
 - **Live Demos**: See Examples section above
 
 ---

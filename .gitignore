@@ -1,0 +1,513 @@
+# Universal FHEVM SDK - Comprehensive .gitignore
+
+# ============================================
+# Dependencies
+# ============================================
+
+# Node modules
+node_modules/
+**/node_modules/
+packages/*/node_modules/
+examples/*/node_modules/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+yarn-error.log
+
+# NPM
+npm-debug.log*
+.npm
+
+# PNPM
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Package manager lock files (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================
+# Build Outputs
+# ============================================
+
+# Distribution folders
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.vitepress/cache
+.vitepress/dist
+
+# Package builds
+packages/*/dist/
+packages/*/build/
+examples/*/dist/
+examples/*/build/
+examples/*/.next/
+examples/*/out/
+
+# TypeScript build info
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Rollup cache
+.rollup.cache/
+
+# ============================================
+# Environment Files
+# ============================================
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env*.local
+
+# Environment templates (keep these)
+!.env.example
+!.env.template
+!.env.sample
+
+# ============================================
+# Smart Contracts
+# ============================================
+
+# Hardhat
+cache/
+artifacts/
+deployments/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+*.env
+
+# Hardhat-specific
+.hardhat/
+hardhat-cache/
+
+# Truffle
+.truffle/
+build/
+
+# Foundry
+out/
+cache_forge/
+broadcast/
+
+# Remix
+.remix/
+
+# ============================================
+# Testing
+# ============================================
+
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+.coverage/
+htmlcov/
+
+# Jest
+jest-results/
+.jest-cache/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# ============================================
+# IDE and Editor Files
+# ============================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.code-workspace
+.history/
+
+# JetBrains IDEs (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# ============================================
+# Operating System Files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# Logs
+# ============================================
+
+# General logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime logs
+*.pid
+*.seed
+*.pid.lock
+
+# Server logs
+server.log
+error.log
+access.log
+
+# ============================================
+# Temporary Files
+# ============================================
+
+# Temporary directories
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ============================================
+# Next.js Specific
+# ============================================
+
+# Next.js build output
+.next/
+out/
+
+# Next.js production build
+.vercel/
+
+# Next.js cache
+.next/cache/
+
+# ============================================
+# React Specific
+# ============================================
+
+# Create React App
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================
+# Vite Specific
+# ============================================
+
+# Vite build output
+dist-ssr/
+
+# Vite cache
+.vite/
+
+# ============================================
+# Webpack
+# ============================================
+
+.webpack/
+
+# ============================================
+# Turbo
+# ============================================
+
+.turbo/
+
+# ============================================
+# Security & Secrets
+# ============================================
+
+# Private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Certificates
+*.cer
+*.crt
+
+# Wallet files
+wallet.json
+keystore/
+*.keystore
+
+# AWS
+.aws/
+
+# ============================================
+# Database
+# ============================================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# Database dumps
+*.sql
+*.dump
+
+# ============================================
+# Miscellaneous
+# ============================================
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env.backup
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Storybook build outputs
+storybook-static/
+
+# Docusaurus
+.docusaurus/
+
+# Documentation builds
+docs/.vitepress/dist
+docs/.vuepress/dist
+
+# ============================================
+# Project Specific
+# ============================================
+
+# Generated ABIs
+abis/generated/
+**/abis/generated/
+
+# FHEVM specific
+.fhevm/
+fhevm-keys/
+
+# Deployment artifacts
+deployments-output/
+deployment-info.json
+
+# Local development blockchain
+ganache/
+.ganache/
+
+# Gas reports
+gas-report.txt
+gasReporterOutput.json
+
+# Solidity coverage
+coverage/
+allFiredEvents.json
+scTopics.json
+
+# Contract size reports
+contract-sizes.txt
+
+# ============================================
+# Media Files (if not needed in repo)
+# ============================================
+
+# Uncomment if you want to ignore media files
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+# *.wmv
+# *.flv
+
+# Keep demo video
+!demo.mp4
+
+# ============================================
+# Archives
+# ============================================
+
+# Compressed files (usually not needed in repo)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# Generated Files
+# ============================================
+
+# Auto-generated documentation
+api-docs/
+typedoc-output/
+
+# Generated types
+generated/
+__generated__/
+
+# Generated schemas
+schemas/generated/
+
+# ============================================
+# CI/CD
+# ============================================
+
+# GitHub Actions
+# (usually .github/ is tracked, but logs aren't)
+.github/**/*.log
+
+# CircleCI
+.circleci/local/
+
+# ============================================
+# Package-specific ignores
+# ============================================
+
+# SDK package
+packages/fhevm-sdk/.turbo/
+packages/fhevm-sdk/dist-types/
+
+# Examples
+examples/**/.turbo/
+examples/**/dist-types/
+
+# ============================================
+# Keep these files (negation patterns)
+# ============================================
+
+# Keep example environment files
+!**/.env.example
+!**/.env.template
+
+# Keep gitkeep files
+!.gitkeep
+!**/.gitkeep
+
+# Keep README files
+!README.md
+!**/README.md
+
+# Keep LICENSE files
+!LICENSE
+!**/LICENSE
+
+# ============================================
+# End of .gitignore
+# ============================================

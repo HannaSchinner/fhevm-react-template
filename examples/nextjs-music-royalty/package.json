@@ -1,0 +1,38 @@
+{
+  "name": "nextjs-music-royalty",
+  "version": "1.0.0",
+  "description": "Next.js example showing FHEVM SDK integration for privacy-preserving music royalty distribution",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network sepolia",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@fhevm/sdk": "workspace:*",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ethers": "^6.9.0",
+    "fhevmjs": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@fhevm/solidity": "^0.7.0",
+    "@fhevm/hardhat-plugin": "^0.1.0"
+  }
+}

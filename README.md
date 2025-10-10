@@ -364,7 +364,7 @@ fhevm-sdk-monorepo/
 
 Watch our comprehensive walkthrough of the Universal FHEVM SDK:
 
-**[Video Demo Link](#)** - *(demo.mp4 will be uploaded here)*
+**[Video Demo demo.mp4 ] 
 
 The demo covers:
 - SDK installation and setup

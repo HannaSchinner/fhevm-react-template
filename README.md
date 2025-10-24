@@ -353,8 +353,7 @@ fhevm-sdk-monorepo/
 | Application | Network | Deployment Link | Status |
 |------------|---------|-----------------|--------|
 | Music Royalty Platform (Next.js) | Sepolia | [View Demo demo.mp4] | Live |
-| React Basic Example | Sepolia |  
-| Node.js CLI Tool | - | [GitHub] | Available |
+
 
 > **Note**: Deployment links will be added after the applications are deployed to live networks. Each deployment showcases the FHEVM SDK in action with real encrypted transactions.
 

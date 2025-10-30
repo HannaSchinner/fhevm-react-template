@@ -250,18 +250,37 @@ fhevm-sdk-monorepo/
 │       │   │   └── index.ts    # React exports
 │       │   └── index.ts        # Main exports
 │       └── package.json
-├── examples/
+├── templates/                  # Framework templates (ready-to-use)
+│   ├── nextjs/                 # Complete Next.js template
+│   │   ├── src/
+│   │   │   ├── app/            # App Router structure
+│   │   │   ├── components/     # UI & FHE components
+│   │   │   ├── lib/            # FHE integration library
+│   │   │   ├── hooks/          # Custom React hooks
+│   │   │   └── types/          # TypeScript types
+│   │   └── package.json
+│   ├── react/                  # React template with Vite
+│   │   ├── src/
+│   │   └── package.json
+│   ├── vue/                    # Vue 3 template
+│   │   ├── src/
+│   │   └── package.json
+│   └── nodejs/                 # Node.js CLI template
+│       ├── src/
+│       └── package.json
+├── examples/                   # Working examples & demos
 │   ├── nextjs-music-royalty/   # Next.js example (featured demo)
-│   │   ├── app/                # Next.js 14 app directory
+│   │   ├── src/                # Source files with complete App Router structure
 │   │   ├── contracts/          # Solidity smart contracts
 │   │   ├── scripts/            # Deployment scripts
 │   │   └── package.json
-│   ├── react-basic/            # Basic React example
+│   ├── react-basic/            # Basic React example with SDK
 │   │   ├── src/
 │   │   └── package.json
-│   └── nodejs-cli/             # Node.js CLI example
-│       ├── src/
-│       └── package.json
+│   ├── nodejs-cli/             # Node.js CLI example with SDK
+│   │   ├── src/
+│   │   └── package.json
+│   └── PrivateMusicRoyalty/    # React-based music royalty app with SDK
 ├── README.md                   # This file
 ├── DEMO_VIDEO_INSTRUCTIONS.md  # Video creation guide
 └── package.json                # Root package.json (workspaces)
@@ -320,22 +339,55 @@ fhevm-sdk-monorepo/
   - Configuration options
   - Advanced usage patterns
 
+### Template Documentation
+
+- **[Next.js Template](./templates/nextjs/README.md)** - Complete Next.js template
+  - Full App Router structure with API routes
+  - FHE components, hooks, and utilities
+  - Banking and medical use case examples
+  - TypeScript, Tailwind CSS, and SDK integration
+
+- **[React Template](./templates/react/README.md)** - React with Vite template
+  - Simple React integration
+  - FHE provider and hooks
+  - Fast development setup
+
+- **[Vue Template](./templates/vue/README.md)** - Vue 3 template
+  - Composition API with FHEVM
+  - Composables for FHE operations
+  - Modern Vue development
+
+- **[Node.js Template](./templates/nodejs/README.md)** - CLI template
+  - Command-line FHE operations
+  - Server-side encryption/decryption
+  - TypeScript CLI tool
+
 ### Example Documentation
 
 - **[Next.js Music Royalty](./examples/nextjs-music-royalty/README.md)** - Featured example
   - Privacy-preserving music royalty distribution platform
-  - Smart contract integration
-  - Full-stack implementation
+  - Complete Next.js App Router structure with API routes
+  - Smart contract integration with deployment scripts
+  - Full-stack implementation with FHEVM SDK
+  - FHE components, hooks, and utilities
 
 - **[React Basic](./examples/react-basic/README.md)** - Simple React integration
-  - Basic setup and usage
-  - Hook examples
-  - Best practices
+  - Basic setup and usage with Vite
+  - FHEVM SDK hook examples
+  - Encryption and decryption demos
+  - Best practices for React integration
 
 - **[Node.js CLI](./examples/nodejs-cli/README.md)** - Server-side usage
-  - CLI tool development
-  - Backend integration
+  - CLI tool development with Commander
+  - Backend integration examples
+  - Framework-agnostic SDK usage
   - Automated workflows
+
+- **[Private Music Royalty](./examples/PrivateMusicRoyalty/README.md)** - React-based royalty app
+  - Converted from static HTML to React with FHEVM SDK
+  - Privacy-preserving music revenue distribution
+  - Smart contract integration
+  - Complete React component architecture
 
 ### Additional Resources
 

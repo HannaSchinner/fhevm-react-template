@@ -1,0 +1,24 @@
+{
+  "name": "fhevm-vue-template",
+  "version": "1.0.0",
+  "description": "Vue template with FHEVM SDK integration",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fhevm/sdk": "workspace:*",
+    "vue": "^3.3.11",
+    "ethers": "^6.9.0",
+    "fhevmjs": "^0.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/tsconfig": "^0.5.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.27"
+  }
+}

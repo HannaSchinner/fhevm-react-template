@@ -8,7 +8,7 @@
 [![npm version](https://badge.fury.io/js/%40fhevm%2Fsdk.svg)](https://www.npmjs.com/package/@fhevm/sdk)
 [![Built for Zama](https://img.shields.io/badge/Built%20for-Zama-blue)](https://www.zama.ai/)
 
-[Documentation](#documentation) • [Quick Start](#quick-start) • [Examples](#examples) • [Demo demo.mp4]
+[Documentation](#documentation) • [Quick Start](#quick-start) • [Examples](#examples) • [Demo demo.mp4](https://fhe-music-royalty.vercel.app/) 
 
 </div>
 
